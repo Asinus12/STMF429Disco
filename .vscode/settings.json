@@ -1,0 +1,8 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "mojinclude.h": "c",
+        "stm32f4xx_spi.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

@@ -1,0 +1,444 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Sep 25 12:55:44 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# makefile (from 'Makefile', line 76)
+DEFS = -DUSE_STDPERIPH_DRIVER
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/blaz/programming/code/stm32Firmware/F4/STM32F429/blinkyF429
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# makefile (from 'Makefile', line 88)
+CFLAGS = -ggdb -O0  -Wall -Wextra -Warray-bounds -mlittle-endian -mthumb -mcpu=cortex-m4 -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16
+# makefile (from 'Makefile', line 51)
+INC_DIRS = $(STM_DIR)/Utilities/STM32F429I-Discovery $(STM_DIR)/Libraries/CMSIS/Include $(STM_DIR)/Libraries/CMSIS/Device/ST/STM32F4xx/Include/ $(STM_DIR)/Libraries/STM32F4xx_StdPeriph_Driver/inc/ .
+# environment
+JOURNAL_STREAM = 8:45326
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile (from 'Makefile', line 10)
+STM_DIR = ../STM32F429I-Discovery_FW_V1.0.1
+# environment
+USERNAME = blaz
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+MANAGERPID = 1281
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = sl_SI.UTF-8
+# environment
+VSCODE_CWD = /home/blaz
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+SESSION_MANAGER = local/skatla:@/tmp/.ICE-unix/1520,unix/skatla:/tmp/.ICE-unix/1520
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=820d5161-5871-4947-9a90-626cbdd973a1&iid=820d5161-5871-4947-9a90-626cbdd973a1&sid=820d5161-5871-4947-9a90-626cbdd973a1","uploadToServer":true}
+# environment
+INVOCATION_ID = 8b5ae0edafe3452fa91c839c859ff9d7
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 1966
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# makefile (from 'Makefile', line 15)
+STM_SRC = $(STM_DIR)/Libraries/STM32F4xx_StdPeriph_Driver/src $(STM_DIR)/Utilities/STM32F429I-Discovery
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/blaz/programming/code/stm32Firmware/F4/STM32F429/blinkyF429
+# default
+.LOADED := 
+# makefile (from 'Makefile', line 64)
+TOOLS_DIR = /usr/bin
+# environment
+SSH_AGENT_PID = 1477
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/blaz
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/blaz/.config/Code/CachedData/83bd43bc519d15e50c4272c6cf5c1479df196a4d
+# environment
+LOGNAME = blaz
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = sl_SI.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# makefile (from 'Makefile', line 39)
+SRCS = main.c system_stm32f4xx.c stm32f4xx_rcc.c  stm32f4xx_gpio.c mojInclude.c stm32f4xx_usart.c stm32f4xx_exti.c misc.c stm32f4xx_syscfg.c stm32f4xx_it.c stm32f429i_discovery_l3gd20.c stm32f4xx_spi.c $(STM_DIR)/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.s
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 66)
+CC = $(TOOLS_DIR)/arm-none-eabi-gcc
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-fd75cea7-edf9-4887-ba6f-d50fb83735fb.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = blaz
+# environment
+LC_MONETARY = sl_SI.UTF-8
+# makefile
+.DEFAULT_GOAL := blinky
+# makefile (from 'Makefile', line 73)
+INCLUDE = $(addprefix -I,$(INC_DIRS))
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = sl_SI.UTF-8
+# makefile (from 'Makefile', line 93)
+LFLAGS = -TSTM32F429ZI_FLASH.ld --specs=nosys.specs
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-ddca170a-1.60.1-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/blaz/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = sl_SI.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = sl_SI.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+LC_MEASUREMENT = sl_SI.UTF-8
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 68)
+GDB = $(TOOLS_DIR)/arm-none-eabi-gdb
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 67)
+OBJCOPY = $(TOOLS_DIR)/arm-none-eabi-objcopy
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = sl_SI.UTF-8
+# makefile (from 'Makefile', line 2)
+PROJ_NAME = blinky
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = sl_SI.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 1966
+# variable set hash-table stats:
+# Load=121/1024=12%, Rehash=0, Collisions=26/197=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 3674803): 22 files, no impossibilities.
+# ../STM32F429I-Discovery_FW_V1.0.1/Libraries/STM32F4xx_StdPeriph_Driver/src (device 66306, inode 3677009): No files, no impossibilities so far.
+# ../STM32F429I-Discovery_FW_V1.0.1/Utilities/STM32F429I-Discovery (device 66306, inode 3802212): No files, no impossibilities so far.
+
+# 22 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+stm32f4xx_syscfg.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+stm32f4xx_rcc.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+ 
+make: *** No rule to make target 'all'.  Stop.
+ 
+#  File has not been updated.
+
+# Not a target:
+stm32f4xx_exti.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: blinky debug install
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+stm32f4xx_it.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+stm32f429i_discovery_l3gd20.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-08 18:05:06.076737357
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+stm32f4xx_usart.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+debug:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 118):
+	$(GDB) $(PROJ_NAME).elf
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+blinky: blinky.elf
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+system_stm32f4xx.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+mojInclude.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+misc.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 109):
+	rm -f *.o $(PROJ_NAME).elf $(PROJ_NAME).hex $(PROJ_NAME).bin
+
+blinky.elf: main.c system_stm32f4xx.c stm32f4xx_rcc.c stm32f4xx_gpio.c mojInclude.c stm32f4xx_usart.c stm32f4xx_exti.c misc.c stm32f4xx_syscfg.c stm32f4xx_it.c stm32f429i_discovery_l3gd20.c stm32f4xx_spi.c ../STM32F429I-Discovery_FW_V1.0.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.s
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 104):
+	$(CC) $(INCLUDE) $(DEFS) $(CFLAGS) $(LFLAGS) $^ -o $@ 
+	$(OBJCOPY) -O ihex $(PROJ_NAME).elf   $(PROJ_NAME).hex
+	$(OBJCOPY) -O binary $(PROJ_NAME).elf $(PROJ_NAME).bin
+
+# Not a target:
+../STM32F429I-Discovery_FW_V1.0.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.s:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+flash:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 113):
+	st-flash write $(PROJ_NAME).bin 0x8000000
+
+# Not a target:
+stm32f4xx_spi.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+install: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+stm32f4xx_gpio.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=24/1024=2%, Rehash=0, Collisions=0/58=0%
+# VPATH Search Paths
+
+vpath %.c ../STM32F429I-Discovery_FW_V1.0.1/Libraries/STM32F4xx_StdPeriph_Driver/src:../STM32F429I-Discovery_FW_V1.0.1/Utilities/STM32F429I-Discovery
+
+# 1 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 43 / storage = 744 B / avg = 17 B
+# current buf: size = 8162 B / used = 744 B / count = 43 / avg = 17 B
+
+# strcache performance: lookups = 72 / hit rate = 40%
+# hash-table stats:
+# Load=43/8192=1%, Rehash=0, Collisions=4/72=6%
+# Finished Make data base on Sat Sep 25 12:55:44 2021
+
+ 
